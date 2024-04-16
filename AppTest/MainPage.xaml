@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTest.MainPage"
+             Title="MainPage"
+             BackgroundColor="AliceBlue">
+
+
+    <ScrollView>
+        <VerticalStackLayout
+        Spacing="25"
+        Padding="30"
+        VerticalOptions="Center">
+
+            <Label
+            Text="Seja Bem-Vindo(a)" TextColor="#F26B6B"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            FontFamily="OpenSans_Semibold"
+            FontSize="40" 
+            FontAttributes="Bold"/>
+
+            <Label
+               Text="Click a tab to navigation" TextColor="#F2CAA7"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center"
+               FontFamily="OpenSans_Semibold"
+               FontSize="24" 
+               FontAttributes="Bold"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+
+    
+
+
