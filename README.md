@@ -25,20 +25,20 @@ Segunda Parte - PP-PAM-I
 
 **Formulário de cadastro do personagem**
 ----------------------------------------
-![tela1](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/3710bace-5abd-4246-ad09-71edd1b175a7)
+![tela1](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/a94bfe82-ae55-4ee7-be48-06649d1dc1f1)
 
 **Personagens Cadastrados**
 ---------------------------
-![tela2](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/38872e27-ba6f-4005-8b87-e05e5dacb6b6)
+![tela2](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/5d3f2196-5128-4eda-af1a-fc70afaa434b)
 
 **Personagens Cadastrados e adicionados a equipe**
 --------------------------------------------------
-![tela5](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/2d995ce9-cffb-4d40-8eab-ebb3691a1d2f)
+![tela5](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/997de496-3304-4ddc-a0d4-5639590360fa)
 
 **Aviso nome do personagem já cadastrado**
 ------------------------------------------
-![tela4](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/08cd01c8-ea7f-4205-81c5-396691e14966)
+![tela4](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/9ec0f21d-bd67-46f6-869a-cbda2c976ad3)
 
 **Aviso equipe completa**
 -------------------------
-![tela3](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/de27824c-21d0-468f-a436-7b1e9238cc2b)
+![tela3](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/c124e932-113a-436b-83be-65bed7243b1f)
