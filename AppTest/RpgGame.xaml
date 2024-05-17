@@ -1,0 +1,126 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTest.RpgGame"
+             Title="RPG Game"
+             BackgroundColor="#F6F6F6">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <Label
+                Text="Ficha Personagem"
+                Margin="0, 15, 0, 20"
+                FontSize="20"
+                FontAttributes="Bold"
+                FontFamily="Nunito Sans"
+                TextColor="#242424"
+                HorizontalTextAlignment="Center"/>
+
+            <Image
+                x:Name="personagem"
+                Source="shield.png"
+                HeightRequest="150"
+                HorizontalOptions="Center"
+                Margin="25, 10, 25, 15"/>
+
+            <Entry x:Name="nomeEntry" 
+                   TextColor="#242424"
+                   Placeholder="Digite o nome do aventureiro"
+                   Margin="0, 20, 0, 0"/>
+
+            <Label 
+                Margin="0, 20, 0, 0"
+                Text="Classe do Aventureiro" 
+                TextColor="#242424"
+                FontAttributes="Bold"/>
+
+            <Picker x:Name="classePicker" 
+                    TextColor="#242424">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Mago</x:String>
+                        <x:String>Assassino</x:String>
+                        <x:String>Lutador</x:String>
+                        <x:String>Suporte</x:String>
+                        <x:String>Feiticeiro</x:String>
+                        <x:String>Druida</x:String>
+                        <x:String>Clérigo</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Label Margin="0, 20, 0, 0"
+                   Text="Nível do Aventureiro: 1" 
+                   x:Name="nivelLabel"
+                   TextColor="#242424"
+                   FontAttributes="Bold"/>
+
+            <Slider x:Name="nivelSlider" 
+                    Maximum="10" 
+                    Minimum="1" 
+                    ValueChanged="NivelSlider_ValueChanged"
+                    MaximumTrackColor="Bisque"/>
+
+            <Label Margin="0, 20, 0, 0"
+                   Text="Raça do Aventureiro"
+                   TextColor="#242424"
+                   FontAttributes="Bold"/>
+
+            <Picker x:Name="racaPicker"
+                    TextColor="#242424">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Humano</x:String>
+                        <x:String>Goblin</x:String>
+                        <x:String>Elfo</x:String>
+                        <x:String>Anão</x:String>
+                        <x:String>Fadas</x:String>
+                        <x:String>Gigante</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Button Text="Adicionar Personagem"
+                    TextColor="#DFD8F7"
+                    FontSize="15.5"
+                    FontAttributes="Bold"
+                    FontFamily="Nunito Sans"
+                    BackgroundColor="#075DD3"
+                    Clicked="AdicionarPersonagem_Clicked"
+                    Margin="0, 20, 0, 5"/>
+            <StackLayout x:Name="personagensLayout" />
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="Monte sua Equipe" 
+                        FontFamily="Nunito Sans"
+                        FontSize="19" 
+                        FontAttributes="Bold"
+                        TextColor="#242424"
+                        Margin="0, 30, 0, 30"/>
+                <Image Source="group.png" 
+                       VerticalOptions="Center" 
+                       WidthRequest="35" 
+                       HeightRequest="35" 
+                       Margin="10, 27, 0, 23"/>
+            </HorizontalStackLayout>
+
+
+            <ListView x:Name="aventureirosListView"
+                      ItemTapped="OnAventureiroTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Nome}" Detail="{Binding Classe}" TextColor="#F0A519"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Label Text="Equipe" 
+                   FontSize="19" 
+                   FontAttributes="Bold"
+                   TextColor="#242424"
+                   Margin="0, 30, 0, 5"
+                   HorizontalOptions="Center"/>
+            
+            <StackLayout x:Name="equipeLayout"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
