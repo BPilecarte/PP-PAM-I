@@ -18,3 +18,27 @@ Tipo e quantidade de dados selecionados (jogando)
 ![0be885c1-88fa-4db7-ad50-0dd01afaf944](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/d01ed99f-4fbf-43c7-b2b7-39b33671b736)
 ![d04f3191-5330-44b9-a8bb-95e42280081b](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/a12b1d7d-389d-4f28-bd7a-4e8c9720b481)
 ![ebb1ab7d-f9fb-4eb2-841f-9b55e1949fa7](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/9f8beb7e-4a2f-47ff-9482-30df5bad576a)
+
+
+Segunda Parte - PP-PAM-I 
+**************************
+
+**Formulário de cadastro do personagem**
+----------------------------------------
+![tela1](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/3710bace-5abd-4246-ad09-71edd1b175a7)
+
+**Personagens Cadastrados**
+---------------------------
+![tela2](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/38872e27-ba6f-4005-8b87-e05e5dacb6b6)
+
+**Personagens Cadastrados e adicionados a equipe**
+--------------------------------------------------
+![tela5](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/2d995ce9-cffb-4d40-8eab-ebb3691a1d2f)
+
+**Aviso nome do personagem já cadastrado**
+------------------------------------------
+![tela4](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/08cd01c8-ea7f-4205-81c5-396691e14966)
+
+**Aviso equipe completa**
+-------------------------
+![tela3](https://github.com/BPilecarte/PP-PAM-I/assets/112111342/de27824c-21d0-468f-a436-7b1e9238cc2b)
