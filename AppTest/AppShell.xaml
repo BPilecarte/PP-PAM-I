@@ -2,7 +2,7 @@
     x:Class="AppTest.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:AppTest"
+    xmlns:local="clr-namespace:AppTest.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="AppTest">
 
@@ -15,19 +15,19 @@
 
             <Tab Title="Dice Game" Icon="dice_page.png">
                 <ShellContent Title="Dice Game"
-                              ContentTemplate="{DataTemplate local:DiceGame}"
+                              ContentTemplate="{DataTemplate local:DiceGameView}"
                               Route="DiceGame"/>
             </Tab>
 
             <Tab Title="RPG" Icon="shieldp.png">
                 <ShellContent Title="RPG"
-                              ContentTemplate="{DataTemplate local:RpgGame}"
+                              ContentTemplate="{DataTemplate local:RpgGameView}"
                               Route="RpgGame"/>
             </Tab>
         
             <Tab Title="Settings" Icon="settings.png">
                 <ShellContent Title="Settings"
-                              ContentTemplate="{DataTemplate local:Page3}"
+                              ContentTemplate="{DataTemplate local:SpellsView}"
                               Route="Settings"/>
             </Tab>
 

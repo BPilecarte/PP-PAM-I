@@ -1,4 +1,4 @@
-﻿namespace AppTest;
+﻿namespace AppTest.Views;
 
 public partial class MainPage : ContentPage
 {

@@ -70,6 +70,7 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -79,6 +80,15 @@
 	  <Compile Update="RpgGame.xaml.cs">
 	    <DependentUpon>RpgGame.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Views\DiceGameView.xaml.cs">
+	    <DependentUpon>DiceGameView.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\RpgGameView.xaml.cs">
+	    <DependentUpon>RpgGameView.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\SpellsView.xaml.cs">
+	    <DependentUpon>SpellsView.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -86,6 +96,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Page3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\SpellsView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
