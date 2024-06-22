@@ -14,11 +14,11 @@
         VerticalOptions="Center">
 
             <Label
-            Text="Shell Tab Demo!" TextColor="Purple"
+            Text="Bem vindo(a) ao AppGame!" TextColor="Purple"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
             FontFamily="OpenSans_Semibold"
-            FontSize="40" 
+            FontSize="35" 
             FontAttributes="Bold"/>
 
             <Label

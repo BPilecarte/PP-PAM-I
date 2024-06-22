@@ -86,19 +86,13 @@
 	  <Compile Update="Views\RpgGameView.xaml.cs">
 	    <DependentUpon>RpgGameView.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Views\SpellsView.xaml.cs">
-	    <DependentUpon>SpellsView.xaml</DependentUpon>
-	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiXaml Update="DiceGame.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Page3.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\SpellsView.xaml">
+	  <MauiXaml Update="Views\SpellView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

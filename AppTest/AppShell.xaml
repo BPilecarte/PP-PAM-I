@@ -25,10 +25,10 @@
                               Route="RpgGame"/>
             </Tab>
         
-            <Tab Title="Settings" Icon="settings.png">
-                <ShellContent Title="Settings"
-                              ContentTemplate="{DataTemplate local:SpellsView}"
-                              Route="Settings"/>
+            <Tab Title="Grimório" Icon="settings.png">
+            <ShellContent Title="Grimório"
+                              ContentTemplate="{DataTemplate local:SpellView}"
+                              Route="Grimório"/>
             </Tab>
 
     </TabBar>
